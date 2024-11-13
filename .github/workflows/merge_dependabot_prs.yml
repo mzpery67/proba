@@ -1,7 +1,6 @@
 name: "Merge dependabot pull requests"
 
 on:
-    push:
     pull_request:
 
 jobs:
