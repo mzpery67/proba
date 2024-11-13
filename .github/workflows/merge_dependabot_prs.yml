@@ -2,6 +2,8 @@ name: "Merge dependabot pull requests"
 
 on:
     pull_request:
+        branches:
+            - main
 
 jobs:
     dependabot:
