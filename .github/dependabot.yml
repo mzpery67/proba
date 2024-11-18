@@ -1,7 +1,7 @@
 version: 2
 registries:
   idom:
-    type: npm-Registry
+    type: npm-registry
     url: https://repo.idomsoft.hu/repository/
     token: ${{ secrets.NPM_AUTH_TOKEN }}
 updates:
