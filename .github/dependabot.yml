@@ -10,7 +10,7 @@ updates:
     groups:
       development-dependencies:
         exclude-patterns:
-        - "*kkszb*"
+        - "@kkszb/eslint-plugin"
       minor-changes:
         update-types:
         - "minor"
