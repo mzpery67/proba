@@ -1,0 +1,22 @@
+name: "Coverage badges"
+
+permissions:
+    contents: write
+
+on:
+    workflow_dispatch:
+    pull_request:
+        types:
+            - opened
+            - reopened
+env:
+    NODE_VERSION: 20.11.1
+    KKSZB_NODE_VERSION: 7.0.0
+
+jobs:
+    cov_badge:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: wouterds/github-coverage-badge-action@v1.0.1
+              with:
+                  coverage-summary-path: coverage-summary.json
