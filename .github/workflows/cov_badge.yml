@@ -3,6 +3,8 @@ name: "Coverage badges"
 permissions:
     contents: write
 
+on:
+    public
 jobs:
     cov_badge:
         runs-on: ubuntu-latest
