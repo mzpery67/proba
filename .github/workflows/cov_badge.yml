@@ -11,6 +11,8 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v3
+              with:
+                  ref: gh-pages
               
             - uses: wouterds/github-coverage-badge-action@v1.0.1
               with:
