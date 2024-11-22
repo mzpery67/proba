@@ -14,4 +14,4 @@ jobs:
               
             - uses: wouterds/github-coverage-badge-action@v1.0.1
               with:
-                  coverage-summary-path: /home/runner/work/proba/coverage-summary.json
+                  coverage-summary-path: /home/runner/work/proba/proba/coverage-summary.json
