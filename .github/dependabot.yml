@@ -1,8 +1,9 @@
 version: 2
 registries:
-  npm-registry:  
+  idom:
     type: npm-registry
-    url: https://registry.npmjs.org
+    url: https://repo.idomsoft.hu/repository/
+    token: ${{ secrets.NPM_AUTH_TOKEN }}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
