@@ -7,7 +7,7 @@ updates:
       time: "11:35"
     registries:
       idom:
-        type: npm-registry
+        type: "npm-registry"
         url: https://repo.idomsoft.hu
         token: ${{ secrets.NPM_AUTH_TOKEN }}
     commit-message:
