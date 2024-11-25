@@ -2,7 +2,8 @@ version: 2
 registries:
   npmjs:
     type: npm-registry
-    url: https://registry.npmjs.org
+    url: https://registry.npmjs.com
+    token: ${{ secrets.NPM_TOKEN }}
   idom:
     type: npm-registry
     url: https://repo.idomsoft.hu/repository/kkszb/
