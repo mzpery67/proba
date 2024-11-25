@@ -39,6 +39,7 @@
         "@nestjs/common": "*"
     },
     "devDependencies": {
+        "@kkszb/eslint-plugin": "^1.4.0",
         "@nestjs/common": "^10.3.10",
         "@types/eslint": "^9.6.0",
         "@types/node": "22.9.3",
