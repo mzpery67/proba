@@ -6,7 +6,7 @@ registries:
     token: ${{ secrets.NPM_AUTH_TOKEN }}
   npmjs:
     type: npm-registry
-    url: https://registry.npmjs.org  
+    url: https://registry.npmjs.com
     token: ${{ secrets.NPM_TOKEN }}
 updates:
   - package-ecosystem: "npm"
