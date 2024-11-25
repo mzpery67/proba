@@ -7,7 +7,8 @@ registries:
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    registries: idom
+    registries: 
+      - idom
     schedule:
       interval: "daily"
       time: "11:35"
