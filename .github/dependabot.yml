@@ -4,10 +4,6 @@ registries:
     type: npm-registry
     url: https://repo.idomsoft.hu/repository/
     token: ${{ secrets.NPM_AUTH_TOKEN }}
-  npmjs:
-    type: npm-registry
-    url: https://registry.npmjs.com
-    token: ${{ secrets.NPM_TOKEN }}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
