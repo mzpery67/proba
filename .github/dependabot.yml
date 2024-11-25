@@ -2,7 +2,7 @@ version: 2
 registries:
   idom:
     type: npm-registry
-    url: https://repo.idomsoft.hu/
+    url: https://repo.idomsoft.hu/repository/npm-kkszb/
     token: ${{ secrets.NPM_AUTH_TOKEN }}
 updates:
   - package-ecosystem: "npm"
