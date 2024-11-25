@@ -1,17 +1,15 @@
 version: 2
-registries:
-  idom:
-    type: npm-registry
-    url: https://repo.idomsoft.hu
-    token: ${{ secrets.NPM_AUTH_TOKEN }}
 updates:
   - package-ecosystem: "npm"
     directory: "/"
-    registries: 
-      - idom
     schedule:
       interval: "daily"
       time: "11:35"
+    registries:
+      idom:
+        type: npm-registry
+        url: https://repo.idomsoft.hu
+        token: ${{ secrets.NPM_AUTH_TOKEN }}
     commit-message:
       prefix: "dependabot"
     groups:
